@@ -69,7 +69,7 @@ public class XxlJobExecutor  {
         // init logpath
         XxlJobFileAppender.initLogPath(logPath);
 
-        // init invoker, admin-client
+        // init invoker, admin-client todo  启动远程调动服务注册
         initAdminBizList(adminAddresses, accessToken);
 
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.xxl.rpc.registry.ServiceRegistry</OriginalElement>
+  <nodes>
+    <node x="0.0" y="85.0">com.xxl.job.core.executor.XxlJobExecutor.ExecutorServiceRegistry</node>
+    <node x="766.0" y="85.0">com.xxl.rpc.registry.impl.ZkServiceRegistry</node>
+    <node x="490.0" y="85.0">com.xxl.rpc.registry.impl.XxlRegistryServiceRegistry</node>
+    <node x="404.0" y="0.0">com.xxl.rpc.registry.ServiceRegistry</node>
+    <node x="258.0" y="85.0">com.xxl.rpc.registry.impl.LocalServiceRegistry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xxl.rpc.registry.impl.XxlRegistryServiceRegistry" target="com.xxl.rpc.registry.ServiceRegistry">
+      <point x="0.0" y="-17.5" />
+      <point x="618.0" y="65.0" />
+      <point x="512.75" y="65.0" />
+      <point x="21.75" y="17.5" />
+    </edge>
+    <edge source="com.xxl.rpc.registry.impl.LocalServiceRegistry" target="com.xxl.rpc.registry.ServiceRegistry">
+      <point x="0.0" y="-17.5" />
+      <point x="364.0" y="65.0" />
+      <point x="469.25" y="65.0" />
+      <point x="-21.75" y="17.5" />
+    </edge>
+    <edge source="com.xxl.job.core.executor.XxlJobExecutor.ExecutorServiceRegistry" target="com.xxl.rpc.registry.ServiceRegistry">
+      <point x="0.0" y="-17.5" />
+      <point x="119.0" y="55.0" />
+      <point x="425.75" y="55.0" />
+      <point x="-65.25" y="17.5" />
+    </edge>
+    <edge source="com.xxl.rpc.registry.impl.ZkServiceRegistry" target="com.xxl.rpc.registry.ServiceRegistry">
+      <point x="0.0" y="-17.5" />
+      <point x="861.5" y="55.0" />
+      <point x="556.25" y="55.0" />
+      <point x="65.25" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="505.5" y="63.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
